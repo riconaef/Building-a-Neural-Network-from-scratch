@@ -32,10 +32,10 @@ Before the model can be used, it needs to be trained with a training set. In eac
 For the next step, the weights and biases of the NN needs to be initialized. For the weights random numbers are chosen, the biases are filled with zeros. 
 With the forward propagation step (inserting weights and biases into the NN), the activation of the output layer can be determined. This is formulated as follows:
 
-Z⁽h⁾: net input of the hidden layer<br>
-A⁽h⁾: activation of the hidden layer<br>
-Z⁽out⁾: net input of the output layer<br>
-A⁽out⁾: activation of the output layer<br>
+Z(h): net input of the hidden layer<br>
+A(h): activation of the hidden layer<br>
+Z(out): net input of the output layer<br>
+A(out): activation of the output layer<br>
 
 For the activation function, the sigmoid activation function is used: 1 / (1 + e^(-z))
 
@@ -44,7 +44,7 @@ The dearivative of this function is: A⁽h⁾ * (1 - A⁽h⁾)
 Via backpropagation the new weights and biases are updated. For that the error is propagated from the Output layer to the Input layer.
 Now the new weights and biases are determined. This can be repeated until it converges.
 
-An important step at the end of each epoch is to determine the the forward propagation step is applied again and the cost function is calculated. This can be seen as 
+An important step at the end of each epoch is to determine the accuracy of the model to prevent overfitting. To do so, forward propagation is applied again and the cost function is calculated.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 The code used here can be find in the book: Python Machine Learning by Sebastian Raschka & Vahid Mirjalili
