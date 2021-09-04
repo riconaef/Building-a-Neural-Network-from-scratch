@@ -21,7 +21,10 @@ Follwoing are the used libraries:
 In this example a very simple Neural Network is set up. The idea behind this to show how a Neural Network is set up and implemented instead of using it as a black box. 
 
 ## File Descriptions <a name="files"></a>
-There is only one file 
+The file "Neural Network implementation" is a jupyter file in which all code can be found. 
+
+## Theory background <a name="files"></a>
+
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 The code used here can be find in the book: Python Machine Learning by Sebastian Raschka & Vahid Mirjalili
