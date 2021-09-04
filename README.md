@@ -39,8 +39,7 @@ Z⁽out⁾: activation of the output layer
 
 For the activation function, the sigmoid activation function is used:
 
-
-![\Large x=\frac{1}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+$`a^2+b^2=c^2`$.
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
