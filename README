@@ -1,7 +1,5 @@
 ### Table of Contents
 
-## In Progress
-
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
@@ -13,8 +11,14 @@
 The code should run in Python 3 with no problems. No additional packages are needed. 
 
 Follwoing are the used libraries:
+  - os
+  - struct
+  - numpy
+  - sys
+  - sklearn
 
 ## Project Motivation<a name="motivation"></a>
+In this example a very simple Neural Network is set up. The idea behind this to show how a Neural Network is set up and implemented instead of using it as a black box. 
 
 ## File Descriptions <a name="files"></a>
 
@@ -22,3 +26,4 @@ Follwoing are the used libraries:
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+The code used here can be find in the book: Python Machine Learning by Sebastian Raschka & Vahid Mirjalili
