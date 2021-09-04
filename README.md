@@ -3,7 +3,7 @@
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
-4. [Theory background](#theory background)
+4. [Theory background](#theorybackground)
 5. [Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
