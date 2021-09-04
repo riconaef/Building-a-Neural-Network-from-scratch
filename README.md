@@ -26,7 +26,7 @@ The training and test set, which are used here is the "mnist_784" dataset which 
 
 The data are images which are saved as vectors in a numpy array. To plot the image, the vectors need to be reshaped (28x28 pixels).
 
-## Theory background <a name="files"></a>
+## Theory background <a name="theorybackground"></a>
 Before the model can be used, it needs to be trained with a training set. In each epoch the training set is shuffled randomly to avoid being trapped in a local minimum. Furtermore, the training set is split into small batches before computing the gradient. This accelerates the learning of the model. 
 
 For the next step, the weights and biases of the NN needs to be initialized. For the weights random numbers are chosen, the biases are filled with zeros. 
