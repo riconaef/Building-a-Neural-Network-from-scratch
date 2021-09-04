@@ -42,7 +42,7 @@ For the activation function, the sigmoid activation function is used: 1 / (1 + e
 The dearivative of this function is: A⁽h⁾ * (1 - A⁽h⁾)
 
 Via backpropagation the new weights and biases are updated. For that the error is propagated from the Output layer to the Input layer.
-Now the new weights and biases are determined. This can be repeated until it converges.
+Now the new weights and biases are determined. This is repeated until it converges.
 
 An important step at the end of each epoch is to determine the accuracy of the model to prevent overfitting. To do so, forward propagation is applied again and the cost function is calculated.
 
