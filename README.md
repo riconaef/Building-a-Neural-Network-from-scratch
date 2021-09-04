@@ -40,6 +40,7 @@ Z⁽out⁾: activation of the output layer
 For the activation function, the sigmoid activation function is used: \frac1 / (1 + e^{z})
 
 (E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
