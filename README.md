@@ -39,8 +39,6 @@ Z⁽out⁾: activation of the output layer
 
 For the activation function, the sigmoid activation function is used:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-1}{1 + e^-z}" title="\Large x=\\frac{-1}{1 + e^-z}" />
-
 
 ![\Large x=\frac{1}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
