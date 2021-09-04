@@ -35,12 +35,15 @@ With the forward propagation step (inserting weights and biases into the NN), th
 Z⁽h⁾: net input of the hidden layer
 A⁽h⁾: activation of the hidden layer
 Z⁽out⁾: net input of the output layer
-Z⁽out⁾: activation of the output layer
+A⁽out⁾: activation of the output layer
 
-For the activation function, the sigmoid activation function is used:
+For the activation function, the sigmoid activation function is used: 1 / (1 + e^(-z))
+The dearivative of this function is: A⁽h⁾ * (1 - A⁽h⁾)
 
-$`a^2+b^2=c^2`$.
+Via backpropagation the new weights and biases are updated. For that the error is propagated from the Output layer to the Input layer.
+Now the new weights and biases are determined. This can be repeated until it converges.
 
+An important step at the end of each epoch is to determine the the forward propagation step is applied again and the cost function is calculated. This can be seen as 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 The code used here can be find in the book: Python Machine Learning by Sebastian Raschka & Vahid Mirjalili
