@@ -32,10 +32,10 @@ Before the model can be used, it needs to be trained with a training set. In eac
 For the next step, the weights and biases of the NN needs to be initialized. For the weights random numbers are chosen, the biases are filled with zeros. 
 With the forward propagation step (inserting weights and biases into the NN), the activation of the output layer can be determined. This is formulated as follows:
 
-Z⁽h⁾: net input of the hidden layer <br>
-A⁽h⁾: activation of the hidden layer
-Z⁽out⁾: net input of the output layer
-A⁽out⁾: activation of the output layer
+Z⁽h⁾: net input of the hidden layer<br>
+A⁽h⁾: activation of the hidden layer<br>
+Z⁽out⁾: net input of the output layer<br>
+A⁽out⁾: activation of the output layer<br>
 
 For the activation function, the sigmoid activation function is used: 1 / (1 + e^(-z))
 
